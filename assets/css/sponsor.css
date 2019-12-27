@@ -1,0 +1,93 @@
+.sponsor_card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: lightgreen;
+  height: 80%;
+
+}
+.sponsor_three{
+padding-bottom: 38px;
+}
+body{
+	background: white;
+}
+h4 b{
+	font-family: Oswald,sans-serif;
+}
+.sponsor_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.pop{
+	height: 280px;
+}
+.popo{
+	height:230px;
+
+}
+.popa{
+	height: 250px;
+}
+#sponsor_tool{
+	width: 35%;
+	margin-left: auto;
+	    margin-right: auto;
+}
+#sponsor_tool2{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+@media(max-width:768px)
+{
+#sponsor_tool{
+	width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+}
+#sponsor_tool2{
+	width: 70%;
+	    margin-right: auto;
+	    margin-left: auto;
+}
+
+}
+#sponsor_tool1{
+    width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sponsor_seven{
+
+	margin-left: 110px;
+}
+
+.sponsor_con {
+  padding: 2px 16px;
+}
+.sponsor_con h4{
+font-size: 22px;
+font-family: auto;
+	text-align: center;
+}
+.sponsor_con p{
+	text-align: center;
+	font-style: italic;
+}
+.mun{
+	height: 400px; width: 100%;
+
+
+}
+.sponsor_five{
+	padding-bottom: 48px;
+
+
+}
+
+
+
+
+
+

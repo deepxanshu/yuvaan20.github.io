@@ -1,0 +1,77 @@
+#accordion{
+    background: white;
+    margin-bottom:5vw;
+}
+button{
+ color:whitesmoke;
+ background: #040404;
+}
+a.active, a:focus, a:hover,.heading{
+    color:white;
+}
+.container{
+    margin-top:2vw;
+}
+
+.lgx-panel .collapsed{
+    background: #1f7e7c;
+}
+.lgx-panel .panel-body{
+    margin:0;
+    text-align: center;
+    padding-top:0;
+    background: rgba(255, 255, 255, 0.8);
+}
+.card a{
+    margin-top:5px;
+}
+.lgx-panel{
+    border-radius: 0px;
+    padding-top:1vw;
+    box-shadow: 0 2px 1px 2px #d7e1f0;
+    margin:0;
+}
+.owl-theme .owl-controls {
+    margin-top:0;
+}
+#navbar,.lgx-header-position-fixed {
+    background:#040404;
+}
+.panel-heading button{
+    text-align: left;
+    padding:2vw;
+}
+.panel-heading{
+    padding:0vw;
+}
+.lgx-panel .lgx-single-schedule .schedule-info{
+    padding:0;
+}
+.panel-body .text{
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height:150px; */
+}
+.register-btn{
+    width:200px;
+    margin-top:50px;
+    margin-bottom:auto;
+}
+button div{
+    font-size:2.5rem;
+    color:white;
+}
+.lgx-panel .lgx-single-schedule{
+    text-align:center;
+    display: block;
+    width: 100%;
+    padding-bottom:0;
+}
+h1{
+    padding:1.5vw;
+}
+@media (max-width:1000px){
+    .card{
+        width:100%;
+    }
+}

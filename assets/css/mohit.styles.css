@@ -1,0 +1,178 @@
+#my_nav {
+    background: #040404;
+}
+
+#keyStats {
+    height: 100%;
+}
+
+.card_carousel {
+    /*background: rgb(255, 255, 255);*/
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+.card_carousel_img{
+    border:5px solid #fff;
+}
+#carousel_container {
+    padding: 0;
+}
+
+.carousel_text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#carousel_fix {
+    margin-bottom: 0;
+    padding: 0;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+#stats2018 {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#year18 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 8%;
+}
+
+#year17 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 8%;
+    padding-top: 4%;
+}
+#yuvaan19Carousel {
+    background-image:linear-gradient(rgba(174, 234, 173, 0.8), rgba(16, 34, 16, 0.8)), url(../img/banner-bg2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#yuvaan18Carousel {
+    background-image:linear-gradient(rgba(174, 234, 173, 0.8), rgba(16, 34, 16, 0.8)), url(../img/banner-bg2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#yuvaan17Carousel {
+    background-image: linear-gradient(rgba(16, 34, 16, 0.8), rgba(174, 234, 173, 0.8)), url('../img/banner-bg2.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#yuvaanHeading {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 4%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel_text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+#carousel_fix {
+    margin-bottom: 0;
+    padding: 0;
+    margin-left: 1%;
+}
+
+#statsVal #lgx-countdown span {
+    font-size: 175%;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#statsVal #lgx-countdown i {
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+/***************MEDIA QUERIES*****************************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #statsVal #lgx-countdown span {
+        font-size: 120%;
+    }
+
+    #statsVal #lgx-countdown i {
+        font-size: 85%;
+    }
+
+    .carousel_text {
+        padding-top: 5%;
+        font-weight: bold;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #statsVal #lgx-countdown span {
+        font-size: 130%;
+    }
+
+    #statsVal #lgx-countdown i {
+        font-size: 85%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #statsVal #lgx-countdown span {
+        font-size: 145%;
+    }
+
+    #statsVal #lgx-countdown i {
+        font-size: 90%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #statsVal #lgx-countdown span {
+        font-size: 160%;
+    }
+
+    #statsVal #lgx-countdown i {
+        font-size: 95%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #statsVal #lgx-countdown span {
+        font-size: 170%;
+    }
+
+    #statsVal #lgx-countdown i {
+        font-size: 95%;
+    }
+}
